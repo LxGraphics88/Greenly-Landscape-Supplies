@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenly Landscape Supply | Premium Outdoor Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Greenly</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero fade-in">
+        <div class="hero-content">
+            <h1>Elevate Your Business</h1>
+            <p>Premium landscaping tools and professional advisory for the modern artisan.</p>
+            <a href="tel:5550123" class="btn-primary">Call Now</a>
+        </div>
+    </header>
+
+    <section id="services" class="services section fade-in">
+        <h2 class="section-title">Curated Supplies</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Industrial Hoses</h3>
+                <p>Reinforced durability for heavy-duty irrigation.</p>
+                <span class="price">From $85</span>
+            </div>
+            <div class="service-card">
+                <h3>Gardening Tools</h3>
+                <p>Ergonomic, stainless steel precision instruments.</p>
+                <span class="price">From $45</span>
+            </div>
+            <div class="service-card">
+                <h3>Professional Advice</h3>
+                <p>1-on-1 consultation with master horticulturists.</p>
+                <span class="price">$120 / hr</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery section fade-in">
+        <h2 class="section-title">The Portfolio</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1558905619-172542612624?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1592150621344-828ec28ee9c1?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1416872834464-02f58a167af5?auto=format&fit=crop&w=800&q=80')"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="booking section fade-in">
+        <div class="form-container">
+            <h2 class="section-title">Request a Consultation</h2>
+            <form id="bookingForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <select required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option value="tools">Gardening Tools</option>
+                    <option value="hoses">Industrial Hoses</option>
+                    <option value="advice">Professional Advice</option>
+                </select>
+                <div class="form-row">
+                    <input type="date" required>
+                    <input type="time" required>
+                </div>
+                <button type="submit" class="btn-submit">Submit Request</button>
+            </form>
+            <div id="successMessage" class="hidden">Thank you! Our team will contact you shortly.</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-info">
+            <p>123 Luxury Lane, Garden District</p>
+            <div class="socials">
+                <a href="#">Instagram</a> | <a href="#">Facebook</a>
+            </div>
+        </div>
+        <p class="copy">&copy; 2024 Greenly Landscape Supply</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
